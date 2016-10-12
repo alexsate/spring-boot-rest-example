@@ -5,12 +5,12 @@
 
     <groupId>com.khoubyari</groupId>
     <artifactId>spring-boot-rest-example</artifactId>
-    <version>0.3.0</version>
+    <version>0.3.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <description>Example project demonstrating REST APIs implemented using Spring Boot, in-memory database, embedded Tomcat, Swagger, JsonPath, Hamcrest and MockMVC</description>
 
     <scm>
-    	<developerConnection>scm:git@github.com:alexsate/spring-boot-rest-example.git</developerConnection>
+    	<developerConnection>scm:git:git@github.com:alexsate/spring-boot-rest-example.git</developerConnection>
     </scm>
 
     <parent>
