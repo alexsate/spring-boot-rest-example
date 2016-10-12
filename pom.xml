@@ -9,6 +9,10 @@
     <packaging>war</packaging>
     <description>Example project demonstrating REST APIs implemented using Spring Boot, in-memory database, embedded Tomcat, Swagger, JsonPath, Hamcrest and MockMVC</description>
 
+    <scm>
+    	<developerConnection>scm:git@github.com:alexsate/spring-boot-rest-example.git</developerConnection>
+    </scm>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -121,6 +125,13 @@
                     <addResources>false</addResources>
                 </configuration>
             </plugin>
+
+	    <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-release-plugin</artifactId>
+		<version>2.5.1</version>
+	    </plugin>		
+
         </plugins>
     </build>
 </project>
