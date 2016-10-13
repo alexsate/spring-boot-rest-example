@@ -4,13 +4,13 @@
 
     <groupId>com.khoubyari</groupId>
     <artifactId>spring-boot-rest-example</artifactId>
-    <version>0.3.2-SNAPSHOT</version>
+    <version>0.3.2</version>
     <packaging>war</packaging>
     <description>Example kjkljl project demonstrating REST APIs implemented using Spring Boot, in-memory database, embedded Tomcat, Swagger, JsonPath, Hamcrest and MockMVC</description>
 
     <scm>
     	<developerConnection>scm:git:git@github.com:alexsate/spring-boot-rest-example.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>spring-boot-rest-example-0.3.2</tag>
   </scm>
 
     <parent>
